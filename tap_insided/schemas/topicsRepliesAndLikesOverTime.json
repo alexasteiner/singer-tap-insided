@@ -1,0 +1,19 @@
+
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "date-time"
+    },
+    "topics": {
+      "type": "integer"
+    },
+    "replies": {
+      "type": "integer"
+    },
+    "likes": {
+      "type": "integer"
+    }
+  }
+}
