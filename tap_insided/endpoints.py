@@ -132,5 +132,11 @@ ENDPOINTS_CONFIG = {
         'pk': ['event_uuid'],
         'is_list': True,
         'unix_timestamps': True
+    },
+    'topicsRepliesAndLikesOverTime': {
+        'path': '/v2/topicsRepliesAndLikesOverTime',
+        'pk': ['date'],
+        'is_list': True
     }
+        
 }
